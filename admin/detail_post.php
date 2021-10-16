@@ -17,7 +17,7 @@
                             $idpenulis = $row->idpenulis;
                              print_r('<div class="shadow-lg p-3 mb-5 bg-white rounded" id="shadow">');
                              echo'<h1 id="judul">'.$row->judul.'</h1>';
-                             echo'<h5 id="nama">'.$row->nama.'</h5>';
+                             print_r('<h5 id="nama">'.$row->nama.'</h5>');
                              echo'<img src="data:images/jpg;base64,'.base64_encode($row->file_gambar).'" id="file_gambar">';
                              echo'<p id="isi">'.$row->isi_post.'</p>';
                              echo'</div>';
