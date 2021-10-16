@@ -19,7 +19,7 @@
                              echo'<h1 id="judul">'.$row->judul.'</h1>';
                              echo'<h5 id="nama">'.$row->nama.'</h5>';
                              echo'<img src="data:images/jpg;base64,'.base64_encode($row->file_gambar).'" id="file_gambar">';
-                             print_r('<p id="isi">'.$row->isi_post.'</p>');
+                             echo'<p id="isi">'.$row->isi_post.'</p>';
                              echo'</div>';
                         }
             ?>
